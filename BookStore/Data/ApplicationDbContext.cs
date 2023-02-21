@@ -11,5 +11,6 @@ namespace BookStore.Data
         {
         }
         public DbSet<BookStore.Models.Product> Product { get; set; }
+        public DbSet<BookStore.Models.User> User { get; set; }
     }
 }
