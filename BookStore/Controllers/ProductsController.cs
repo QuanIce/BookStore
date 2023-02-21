@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookStore.Data;
 using BookStore.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace BookStore.Controllers
 {
@@ -42,6 +44,7 @@ namespace BookStore.Controllers
 
             return View(product);
         }
+        [Authorize(Roles = "Admin")]///****
 
         // GET: Products/Create
         public IActionResult Create()
