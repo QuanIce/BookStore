@@ -17,6 +17,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\Happylive.jpg",
+      "PackagePath": "staticwebassets\\images\\Happylive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\Happylive1.jpg",
+      "PackagePath": "staticwebassets\\images\\Happylive1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\Happylive2.jpg",
+      "PackagePath": "staticwebassets\\images\\Happylive2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\Happylive3.jpg",
+      "PackagePath": "staticwebassets\\images\\Happylive3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\Happylive4.jpg",
+      "PackagePath": "staticwebassets\\images\\Happylive4.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\BookStore\\BookStore\\wwwroot\\images\\gallery_php0W8aFl1635946581.jpg",
       "PackagePath": "staticwebassets\\images\\gallery_php0W8aFl1635946581.jpg"
     },
