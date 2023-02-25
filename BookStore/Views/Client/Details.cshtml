@@ -79,7 +79,20 @@
                         <b>Quantity:</b><input type="number" placeholder="1" class="form-control quantity">
                     </label>
                 </div>
-                <button type="button" class="btn btn-success mt-4" href="#">Add To Cart</button>
+                <form method="post" asp-controller="Cart" asp-action="MakeCart" asp-route-id="@Model.Id" asp-route-price="@Model.Price"
+                      asp-route-customerName="@User.Identity.Name">
+                    <div class="text-center row" style="margin-left:520px">
+                        <div>
+                            <input type="hidden" name="book" />
+                        </div>
+                        <div class="col-md-2 mr-5">
+                            <input type="number" name="quantity" min="1" max="@Model.Quantity" value="1" class="form-control" style="width: 70px">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-success" type="submit" value="Order" style="width:100px">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
